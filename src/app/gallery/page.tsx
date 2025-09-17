@@ -1,6 +1,7 @@
 import { Flex, Meta, Schema } from "@once-ui-system/core";
 import GalleryView from "@/components/gallery/GalleryView";
 import { baseURL, gallery, person } from "@/resources";
+import ParticlesBackground from "@/components/ParticlesBackground";
 
 export async function generateMetadata() {
   return Meta.generate({
@@ -29,6 +30,7 @@ export default function Gallery() {
         }}
       />
       <GalleryView />
+      <ParticlesBackground />
     </Flex>
   );
 }

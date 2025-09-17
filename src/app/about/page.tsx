@@ -16,6 +16,7 @@ import { baseURL, about, person, social } from "@/resources";
 import TableOfContents from "@/components/about/TableOfContents";
 import styles from "@/components/about/about.module.scss";
 import React from "react";
+import ParticlesBackground from "@/components/ParticlesBackground";
 
 export async function generateMetadata() {
   return Meta.generate({
@@ -335,6 +336,7 @@ export default function About() {
           )}
         </Column>
       </Row>
+      <ParticlesBackground />
     </Column>
   );
 }
