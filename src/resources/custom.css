@@ -52,3 +52,56 @@
   --scheme-neutral-600-50: rgba(137,152,159,0.5);
   /*
 }*/
+#about {
+  background-color: var(--scheme-neutral-100) !important;
+  border: 1px solid #595959 !important;
+}
+/* Dark mode hover (okay na) */
+#about:hover {
+  background-color: #3f3f3f !important;
+}
+
+/* Light mode hover - subtle lang */
+@media (prefers-color-scheme: light) {
+  #about:hover {
+    background-color: rgba(63, 63, 63, 0.3) !important; /* lighter version */
+  }
+}
+
+
+/* Nav Buttons container */
+.navButtons {
+  border: 1px solid #595959; /* subtle border */
+  border-radius: 999px;       /* pill shape */
+  display: flex;
+  gap: 8px;
+  padding: 4px 8px;
+  align-items: center;
+  /* background-color removed to let Row background="surface" take effect */
+}
+
+/* Individual ToggleButton */
+.navButtons .once-toggle-button {
+  background-color: transparent;
+  color: #fff;
+  border-radius: 999px; /* pill shape */
+  padding: 6px 12px;
+  transition: background-color 0.2s;
+}
+
+/* Active / selected button */
+.navButtons .once-toggle-button[selected] {
+  background-color: #595959; /* light gray background */
+  color: #fff;
+}
+
+/* Hover effect */
+.navButtons .once-toggle-button:hover {
+  background-color: #4a4a4a;
+}
+
+
+
+
+
+

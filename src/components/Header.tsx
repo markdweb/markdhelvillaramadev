@@ -8,6 +8,7 @@ import { Fade, Flex, Line, Row, ToggleButton } from "@once-ui-system/core";
 import { routes, display, person, about, blog, work, gallery } from "@/resources";
 import { ThemeToggle } from "./ThemeToggle";
 import styles from "./Header.module.scss";
+import "@/resources/custom.css";
 
 type TimeDisplayProps = {
   timeZone: string;
@@ -77,7 +78,8 @@ export const Header = () => {
         </Row>
         <Row fillWidth horizontal="center">
           <Row
-            background="page"
+            className="navButtons"  // add custom class
+            background="surface" // let CSS control
             border="neutral-alpha-weak"
             radius="m-4"
             shadow="l"
@@ -89,7 +91,7 @@ export const Header = () => {
               {routes["/"] && (
                 <ToggleButton prefixIcon="home" href="/" selected={pathname === "/"} />
               )}
-              <Line background="neutral-alpha-medium" vert maxHeight="24" />
+              <Line background="neutral-alpha-medium" vert style={{ width: "1px", display: "block", height: "24px" }}  />
               {routes["/about"] && (
                 <>
                   <Row s={{ hide: true }}>
@@ -168,11 +170,13 @@ export const Header = () => {
               )}
               {display.themeSwitcher && (
                 <>
-                  <Line background="neutral-alpha-medium" vert maxHeight="24" />
+                  <Line background="neutral-alpha-medium" vert style={{ width: "1px", display: "block", height: "24px", margin: "0 8px" }} />
                   <ThemeToggle />
                 </>
               )}
             </Row>
+
+            
           </Row>
         </Row>
         <Flex fillWidth horizontal="end" vertical="center">

@@ -15,6 +15,8 @@ import { home, about, person, baseURL, routes } from "@/resources";
 import { Projects } from "@/components/work/Projects";
 import { Posts } from "@/components/blog/Posts";
 import ParticlesBackground from "@/components/ParticlesBackground";
+import "@/resources/custom.css";
+
 
 export async function generateMetadata() {
   return Meta.generate({
