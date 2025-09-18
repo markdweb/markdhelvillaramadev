@@ -80,7 +80,7 @@ const about: About = {
   },
   calendar: {
     display: true,
-    link: "https://cal.com",
+    link: "https://cal.com/markdweb",
   },
   intro: {
     display: true,
