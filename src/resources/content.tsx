@@ -43,30 +43,25 @@ const home: Home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Building bridges between design and code</>,
+  headline: <>Developer</>,
   featured: {
     display: true,
     title: (
-      <Row gap="12" vertical="center">
-        <strong className="ml-4">Once UI</strong>{" "}
-        <Line background="brand-alpha-strong" vert height="20" />
-        <Text marginRight="4" onBackground="brand-medium">
-          Featured work
-        </Text>
-      </Row>
+    <Row gap="4" vertical="center">
+      <Text>
+        Recent project:
+      </Text>
+      <strong>Sample</strong>
+  </Row>
+
     ),
     href: "/work/building-once-ui-a-customizable-design-system",
   },
   subline: (
     <>
-      I'm Selene, a design engineer at{" "}
-      <Logo
-        dark
-        icon="/trademarks/wordmark-dark.svg"
-        style={{ display: "inline-flex", top: "0.25em", marginLeft: "-0.25em" }}
-      />
-      , where I craft intuitive
-      <br /> user experiences. After hours, I build my own projects.
+      I’m Mark — software developer in Manila focused on crafting delightful user experiences{" "} In my downtime,
+      <br /> I document my tech and creative journey with an 
+      <br /> eye for innovation and sharing what I learn.
     </>
   ),
 };
