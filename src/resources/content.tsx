@@ -59,7 +59,7 @@ const home: Home = {
   },
   subline: (
     <>
-      I’m Mark — software developer in Manila focused on crafting delightful user experiences{" "} In my downtime,
+      I’m Mark — software developer in Manila focused on crafting delightful user experiences.{" "} In my downtime,
       <br /> I document my tech and creative journey with an 
       <br /> eye for innovation and sharing what I learn.
     </>
