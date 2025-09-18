@@ -87,9 +87,10 @@ const about: About = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        I’m Mark, a software developer based in Philippines passionate about building intuitive,
+        user-friendly applications that connect creativity with functionality. Driven by
+        curiosity and continuous growth, I enjoy refining my craft, learning new tools, 
+        and sharing lessons from my journey to inspire collaboration and innovation.
       </>
     ),
   },
@@ -98,41 +99,50 @@ const about: About = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "Software Developer Freelancer",
+        timeframe: "2023 - Present",
+        role: "",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
+            <strong>Developed multiple systems:</strong> Pharmacy POS + ERP, School Attendance System,
+            Library Management System
+
           </>,
           <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
+            <strong>Built features:</strong> sales & inventory tracking, receipt printing, barcode scanning,
+            low-stock alerts, daily sales reports
+
+          </>,
+          <>
+           <strong>Collaborated</strong> directly with clients for requirements, implementation,
+          and testing
+
           </>,
         ],
-        images: [
-          // optional: leave the array empty if you don't want to display images
-          {
-            src: "/images/projects/project-01/cover-01.jpg",
-            alt: "Once UI Project",
-            width: 16,
-            height: 9,
-          },
-        ],
+          // images: [
+            // optional: leave the array empty if you don't want to display images
+          //   {
+          //     src: "/images/projects/project-01/cover-01.jpg",
+          //     alt: "Once UI Project",
+          //     width: 16,
+          //     height: 9,
+          //   },
+          // ],
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        company: "Straive",
+        timeframe: "01/23 - 04/23",
+        role: "HR Intern",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
+            Handled employee records: organized pre-employment documents, confidentiality agreements,
+            and 201 files
           </>,
           <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
+            Maintained HR documentation in Microsoft Excel for accurate record-keeping
+          </>,
+           <>
+            Ensured compliance with company policies on confidentiality and documentation
           </>,
         ],
         images: [],
@@ -144,12 +154,8 @@ const about: About = {
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
-      },
-      {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        name: "Dr. Filemon C. Aguilar Memorial College Las Piñas - Satellite Campus",
+        description: <>Graduated with a Bachelor of Science in Information Systems</>,
       },
     ],
   },
@@ -158,61 +164,49 @@ const about: About = {
     title: "Technical skills",
     skills: [
       {
-        title: "Figma",
+        title: "Currently Learning",
         description: (
-          <>Able to prototype in Figma with Once UI with unnatural speed.</>
+          <>Power BI</>
         ),
-        tags: [
-          {
-            name: "Figma",
-            icon: "figma",
-          },
-        ],
+      //  tags: [
+       //   {
+       //     name: "Figma",
+      //      icon: "figma",
+      //    },
+    //    ],
         // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-02.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-          {
-            src: "/images/projects/project-01/cover-03.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
+        images: [],
       },
       {
-        title: "Next.js",
+        title: "Web Development (Most used)",
         description: (
-          <>Building next gen apps with Next.js + Once UI + Supabase.</>
+          <>Javascript, Typescript, Next.js, CSS/Tailwind, HTML5, Once UI, Shadcn, Git, NPM, NodeJS </>
         ),
-        tags: [
-          {
-            name: "JavaScript",
-            icon: "javascript",
-          },
-          {
-            name: "Next.js",
-            icon: "nextjs",
-          },
-          {
-            name: "Supabase",
-            icon: "supabase",
-          },
-        ],
+        tags: [],
         // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-04.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
+        images: [],
       },  
+       {
+        title: "Software Development",
+        description: (
+          <>VB.NET, C#, Crystal Report, DevExpress, SQL Server</>
+        ),
+        tags: [],
+        // optional: leave the array empty if you don't want to display images
+        images: [],
+      }, 
+      {
+        title: "Technologies",
+        description: (
+          <>Photoshop, Canva, Figma, MySQL, XAMPP, Vercel, Visual Studio Code, Visual Studio Community, Github, Notion, Microsoft Office</>
+        ),
+        tags: [],
+        // optional: leave the array empty if you don't want to display images
+        images: [],
+      }, 
+
+
+
     ],
   },
 };
