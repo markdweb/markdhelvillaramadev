@@ -1,0 +1,43 @@
+---
+title: "Secure Chrome Launcher"
+publishedAt: "2025-07-16"
+summary: "secure and offline Chrome profile launcher with an integrated password lock, auto-lock timer, and PC hardware binding"
+images:
+  - "/images/projects/project-002/image-01.jpg"
+  - "/images/projects/project-002/vm.mp4"
+team:
+  - name: "Mark Dhel Villarama"
+    role: "Software Developer"
+    avatar: "/images/avatar.jpg"
+    linkedIn: "https://www.linkedin.com/in/markdhelvillarama/"
+link: "https://github.com/markdweb/secro"
+---
+
+## Overview
+
+Secro (Secure Chrome Launcher) is a custom-built offline application designed to provide an additional layer of security and focus management for Chrome profiles. It ensures that sensitive profiles remain private through password protection and hardware binding, while also helping users stay disciplined by automatically limiting browser usage during work or study sessions. Originally built for personal use, Secro has evolved into a versatile tool for privacy, productivity, and secure browsing
+
+## Key Features
+
+- **Hardware Lock**: Binds the application to a specific PC using CPU, motherboard, and disk serials, blocking unauthorized devices
+- **Passcode Protection**: Requires a secure passcode before launching Chrome, with a 3-strike attempt system leading to a temporary lockout
+- **Auto-Lock Timer**: Automatically closes Chrome after a period of inactivity, with a warning popup to extend the session (2 minutes to 10 hours)
+- **Notification Popup**: Alerts the user one minute before auto-lock, providing flexibility to extend browsing sessions when needed
+- **Configurable Paths**: Supports custom Chrome executable paths and user profile directories
+- **Advanced Settings**: Options to change passcode, enable/disable auto-lock, and reset hardware lock via secure shortcuts
+- **Activity Monitoring**: Tracks browser session status and returns to the lock screen once Chrome is closed
+
+<Media
+  src="/images/projects/project-002/vm.mp4"
+  alt="daily task"
+  aspectRatio={640 / 521}
+  radius="l"
+  style={{ margin: "24px 0" }}
+/>
+
+## Challenges and Learnings
+
+Developing Secro required solving challenges around security and usability. Implementing a reliable hardware lock meant dealing with unique system identifiers that remain stable yet secure. Designing the auto-lock timer also involved balancing strict enforcement with flexibility, ensuring that users could stay focused without feeling restricted. From this, I learned the importance of building security tools that are both technically robust and user-friendly
+
+## Outcome
+Secro successfully achieved its goal of providing a secure, distraction-minimizing environment for Chrome usage. It became a personal productivity companion, helping to safeguard private browser sessions and enforce disciplined work routines. By combining hardware-level security, password protection, and session management, Secro demonstrated how lightweight offline tools can deliver practical solutions for both privacy and focus
