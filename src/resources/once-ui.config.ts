@@ -36,24 +36,27 @@ const protectedRoutes: ProtectedRoutesConfig = {
 };
 
 // Import and set font for each variant
-import { Geist } from "next/font/google";
-import { Geist_Mono } from "next/font/google";
+// import { Geist } from "next/font/google";
+import { Poppins, Geist_Mono } from "next/font/google";
 
-const heading = Geist({
+const heading = Poppins({
   variable: "--font-heading",
   subsets: ["latin"],
+  weight: ["400", "600", "700"],
   display: "swap",
 });
 
-const body = Geist({
+const body = Poppins({
   variable: "--font-body",
   subsets: ["latin"],
+  weight: ["400", "500"],
   display: "swap",
 });
 
-const label = Geist({
+const label = Poppins({
   variable: "--font-label",
   subsets: ["latin"],
+  weight: ["400", "500", "600"],
   display: "swap",
 });
 
