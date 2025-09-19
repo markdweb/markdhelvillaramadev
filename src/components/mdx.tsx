@@ -1,7 +1,7 @@
 import { MDXRemote, MDXRemoteProps } from "next-mdx-remote/rsc";
 import React, { ReactNode } from "react";
 import { slugify as transliterate } from "transliteration";
-
+import { Feedback } from "./FeedbackWrapper";
 import {
   Heading,
   HeadingLink,
@@ -13,7 +13,7 @@ import {
   Accordion,
   AccordionGroup,
   Table,
-  Feedback,
+  // Feedback,
   Button,
   Card,
   Grid,
