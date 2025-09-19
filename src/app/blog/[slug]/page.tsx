@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
 import { CustomMDX, ScrollToHash } from "@/components";
+import ParticlesBackground from "@/components/ParticlesBackground";
 
 import {
   Meta,
@@ -164,6 +165,7 @@ export default async function Blog({ params }: { params: Promise<{ slug: string 
         </Row>
         <HeadingNav fitHeight />
       </Column>
+      <ParticlesBackground />
     </Row>
   );
 }

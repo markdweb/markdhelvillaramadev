@@ -1,5 +1,6 @@
 import { Column, Heading, Meta, Schema } from "@once-ui-system/core";
 import { Posts } from "@/components/blog/Posts";
+import ParticlesBackground from "@/components/ParticlesBackground";
 import { baseURL, blog, person } from "@/resources";
 
 export async function generateMetadata() {
@@ -40,6 +41,7 @@ export default function Blog() {
         </Heading>
         <Posts range={[4]} columns="2" />
       </Column>
+      <ParticlesBackground />
     </Column>
   );
 }
