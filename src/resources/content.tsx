@@ -51,11 +51,11 @@ const home: Home = {
       <Text>
         Recent project:
       </Text>
-      <strong>Sample</strong>
+      <strong>Secro</strong>
   </Row>
 
     ),
-    href: "/work/building-once-ui-a-customizable-design-system",
+    href: "/work/secro",
   },
   subline: (
     <>
@@ -105,12 +105,11 @@ const about: About = {
         achievements: [
           <>
             <strong>Developed multiple systems:</strong> Pharmacy POS + ERP, School Attendance System,
-            Library Management System
+            Barangay Management System
 
           </>,
           <>
-            <strong>Built features:</strong> sales & inventory tracking, receipt printing, barcode scanning,
-            low-stock alerts, daily sales reports
+            <strong>Built features:</strong> such as data tracking, reporting, automation, and user-friendly interfaces
 
           </>,
           <>
